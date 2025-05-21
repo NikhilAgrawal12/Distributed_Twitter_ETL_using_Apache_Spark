@@ -1,15 +1,24 @@
-### Project 2
-This is a template, to be filled out by each group and placed in their git repo titled README.md
-Requirements:
-- Create a Spark Application that processes Twitter data
-- Your project 2 pitch should involve some analysis of twitter data.  This can be the central feature.  Your final application should work, to some extent, with both streaming and historical data.
-- Send me a link to a git repo, have someone in the group manage git (but they can ask for help from me)
-- Produce a one or more .jar files for your analysis.  Multiple smaller jar files are preferred.
+Overview
+This project demonstrates a complete end-to-end ETL pipeline for analyzing Twitter data using Apache Spark. It supports both real-time streaming and batch processing of tweets to uncover insights such as trending hashtags, user activity patterns, and sentiment indicators.
 
-### Technologies
-- Apache Spark
-- Spark SQL
-- YARN
-- HDFS and/or S3
-- Python 3.9.0 / Scala 2.13.2
-- Git + GitHub
+Built as part of an academic assignment, the application leverages Spark’s distributed computing power and is designed to scale using YARN and HDFS/S3 for big data storage and processing.
+
+Objectives
+Build a Spark-based application that ingests and processes live and historical Twitter data
+
+Enable analysis via Spark SQL for querying structured tweet data
+
+Generate one or more .jar files for modular and reusable data processing tasks
+
+Demonstrate integration of streaming data with batch data workflows
+
+Technologies Used
+Apache Spark (Core, SQL, Streaming)
+
+YARN for cluster resource management
+
+HDFS / Amazon S3 for data storage
+
+Python 3.9.0 / Scala 2.13.2
+
+Git + GitHub for version control
