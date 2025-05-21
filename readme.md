@@ -1,4 +1,4 @@
-** Overview **
+**Overview**
 
 
 This project demonstrates a complete end-to-end ETL pipeline for analyzing Twitter data using Apache Spark. It supports both real-time streaming and batch processing of tweets to uncover insights such as trending hashtags, user activity patterns, and sentiment indicators.
@@ -7,7 +7,7 @@ This project demonstrates a complete end-to-end ETL pipeline for analyzing Twitt
 Built as part of an academic assignment, the application leverages Spark’s distributed computing power and is designed to scale using YARN and HDFS/S3 for big data storage and processing.
 
 
-** Objectives **
+**Objectives**
 
 
 Build a Spark-based application that ingests and processes live and historical Twitter data
@@ -19,7 +19,7 @@ Generate one or more .jar files for modular and reusable data processing tasks
 Demonstrate integration of streaming data with batch data workflows
 
 
-** Technologies Used **
+**Technologies Used**
 
 
 Apache Spark (Core, SQL, Streaming)
